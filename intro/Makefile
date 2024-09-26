@@ -21,4 +21,4 @@ run:
 	qemu-system-x86_64 -fda $(BUILD_DIR)/main_floppy.img
 
 clean:
-	rm -rf $(BUILD_DIR)/*
+	rm -rf $(BUILD_DIR)
